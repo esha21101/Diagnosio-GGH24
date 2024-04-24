@@ -28,3 +28,16 @@ Tech Stack:
 - Framework:
   - Django: A high-level Python web framework used for building web applications, run using `python manage.py runserver`.
  
+    # HOW TO OPEN THE PROJECT ?
+
+    1. clone this repository :
+    git clone <https://github.com/esha21101/Diagnosio-GGH24.git>
+    2. Navigate to project directory : 
+    cd <project directory>
+    3. Start the local server :
+       php -S localhost:8000
+    4. Access the web Application through :
+       http://localhost:8000
+    
+
+ 

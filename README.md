@@ -1,8 +1,6 @@
 # Diagnosio-GGH24
 # for Google Girl Hackathon 2024
 
-This project has been made by Esha for Google Girl Hackathon 2024.
-
  Project Name: DIAGNOSIO
 
 THEME : AI for Social Good

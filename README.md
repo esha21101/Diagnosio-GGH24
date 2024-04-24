@@ -25,8 +25,6 @@ Tech Stack:
   - Python 3.8: Used to interact with external APIs and perform various tasks related to data processing and analysis.
     - Virtual Environment: Created using `python3.8 -m venv venv` to manage dependencies.
     - Requirements.txt: Contains a list of Python packages required for the project, installed using `pip install -r requirements.txt`.
-    - Spacy: Natural language processing library used for tasks such as text analysis and entity recognition, installed using `python -m spacy download en_core_web_md`.
-    - ScispaCy: Scientific text processing library, installed using `python -m pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_md-0.5.1.tar.gz`.
 - Framework:
   - Django: A high-level Python web framework used for building web applications, run using `python manage.py runserver`.
  

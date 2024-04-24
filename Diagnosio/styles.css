@@ -1,0 +1,103 @@
+*{
+    margin: 5px;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image: url('https://i.pinimg.com/564x/03/1a/93/031a9359883191a33424c47eb50aba7a.jpg');
+    background-color: rgb(179, 235, 246);
+}
+#heading{
+    color: rgb(3, 3, 3);
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(231, 165, 204);
+    margin: 5px 400px;
+    font-family: 'CustomFont', Arial, Helvetica, sans-serif;
+}
+#sub-heading{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+form{
+    margin: 20px 460px;
+    padding: 20px;    
+}
+input[type = text]{
+    width:100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 15px;
+    font-size: 20px;
+}
+input[type = password],select{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 15px;
+    font-size: 20px;
+}
+input[type = mail]{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 15px;
+    font-size: 20px;
+}
+input[type = date]{
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 15px;
+    font-size: 20px;
+}
+input[type = time]{
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 15px;
+    font-size: 20px;
+}
+
+label{
+    margin: 10px;
+    font-size: 24px;
+}
+.button{
+    background-color: #748dd3;
+    color: white;
+    margin: 20px 10px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 26px;
+}
+.card{
+    margin: 20px 50px;
+    padding: 20px;
+}
+
+
+.car{
+    text-align:center;
+    border-radius:5px;
+    
+    padding: 20px;
+}
+.order{
+    float: left;
+    width: 30%;
+    padding : 15px;
+}
+.dotor-details{
+    margin:20px, 450px;
+    padding: 30px;
+    text-align: center;
+}

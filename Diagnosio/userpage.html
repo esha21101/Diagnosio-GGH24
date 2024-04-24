@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Patient page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id = 'heading'>
+            <h1>Patient Page</h1>
+        </div>
+        <div style=" margin: 20px 460px;padding: 20px;">
+            <button class = 'button' style="width: 100%;" onclick='fun1()'>Make an Appointment</button>
+            <button class = 'button' style="width: 100%;" onclick='fun2()'>My Appointments</button>
+            <button class="button" style="width: 100%;" onclick="logout()">Logout</button>
+        </div>
+        <script>
+            function fun1(){
+                window.location = "registration.php";
+            }
+            function fun2(){
+                window.location = 'myappointments.php';
+            }
+            function logout(){
+                window.location = 'index.html';
+            }
+        </script>
+    </body>
+</html>

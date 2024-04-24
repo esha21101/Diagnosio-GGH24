@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Login page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div>
+            <div  id ='heading'>
+            <h1 >Diagnosio</h1>
+            </div>
+            <div id = 'sub-heading'>
+            <h3 >Login Page</h3>
+            </div>
+            <form action="action.php" method="POST">
+                <label for ="username">Username</label>
+                <input type="text" id = 'username' name ="uname" placeholder="Enter your username" required>
+                <label for = "password">Password</label>
+                <input type = "password" id = 'password' name = "pass" placeholder="Enter your password" required>
+                <button type="submit" style ="width: 42%;"  class = 'button' name = 'login-btn'>Login</button>
+                <button type="submit" style="width: 42%;"  class = 'button' name = 'sign-in' onclick="Signin()">Sign In</button>
+            </form>
+        </div>
+        <script>
+            function Signin(){
+                window.location = 'Signin.html';
+            }
+        </script>
+    </body>
+</html> 

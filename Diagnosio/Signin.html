@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Sign in</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id = "heading">
+            <h1>Sign In</h1>
+        </div>
+        <form action="action.php" method="POST">
+            <label for = "username">Username</label>
+            <input type="text" name = 'username' id = 'username' placeholder="Enter your name" required>
+            <label for="phone">Phone number</label>
+            <input type="text" name="phone" id="phone" placeholder="Enter your phone number" required>
+            <label for="mail">E-Mail</label>
+            <input type="mail" name="mail" id="mail" placeholder="Enter your mail" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enetr your password" required>
+            <label for="Conform">Conform Password</label>
+            <input type="password" name="conform" id="Conform" placeholder="Enter your password again" required>
+            <div style="text-align: center;">
+            <button type="submit" class = "button" style="width: 50%;" name = 'signin' onclick="">Sign In</button></div>
+        </form>
+    </body>
+</html>

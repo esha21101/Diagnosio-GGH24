@@ -33,9 +33,9 @@ DIAGNOSIO is a web-based application designed to assist users in finding suitabl
     2. Navigate to project directory : 
     `cd project_directory`
     3. Start the local server :
-       php -S localhost:8000
+       `php -S localhost:8000`
     4. Access the web Application through :
-       http://localhost:8000
+       `http://localhost:8000`
     
 
  
